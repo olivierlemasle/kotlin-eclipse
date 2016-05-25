@@ -207,7 +207,9 @@ class KotlinCompletionProcessor(
     override fun assistSessionEnded(event: ContentAssistEvent?) {
     }
     
-    override fun selectionChanged(proposal: ICompletionProposal?, smartToggle: Boolean) { }
+    override fun selectionChanged(proposal: ICompletionProposal?, smartToggle: Boolean) {
+	
+	}
 }
 
 private object KotlinCompletionSorter : ICompletionProposalSorter {
